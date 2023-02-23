@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "t3TzOCfCC8HCqc3aFZWErSBBY+ZERG5jveLNHgJsOyM=",
+  "Source": "SampleWeatherWebCoreApplication",
+  "BasePath": "_content/SampleWeatherWebCoreApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

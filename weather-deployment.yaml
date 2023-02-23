@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sampleweather-deployment
+  labels:
+    app: sampleweather
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sampleweather
+  template:
+    metadata:
+      labels:
+        app: sampleweather
+    spec:
+      containers:
+        - name: sampleweathercontr
+          image: registry.digitalocean.com/digital-cr/sampleweather:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sampleweather-service
+spec:
+  type: NodePort
+  selector:
+    app: sampleweather
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 80
+      nodePort: 31000
