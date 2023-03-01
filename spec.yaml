@@ -1,0 +1,15 @@
+name: weath-app
+region: blr
+services:
+- http_port: 80
+  image:
+    deploy_on_push:
+      enabled: true
+    registry_type: DOCR
+    repository: weatherfinalimage
+    tag: latest
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: weatherfinalimage
+  routes:
+  - path: /

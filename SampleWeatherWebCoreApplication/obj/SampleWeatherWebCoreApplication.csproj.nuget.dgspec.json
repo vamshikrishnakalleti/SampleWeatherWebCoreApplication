@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj": {}
+    "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj": {
+    "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
+        "projectUniqueName": "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
         "projectName": "SampleWeatherWebCoreApplication",
-        "projectPath": "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
+        "projectPath": "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
         "packagesPath": "C:\\Users\\PLAPA-24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\obj\\",
+        "outputPath": "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[1.17.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -63,24 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.14, 6.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sampleweather-deployment
+  name: sampleweather-deploy
   labels:
     app: sampleweather
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: sampleweather
@@ -15,8 +14,8 @@ spec:
         app: sampleweather
     spec:
       containers:
-        - name: sampleweathercontr
-          image: registry.digitalocean.com/digital-cr/sampleweather:latest
+        - name: sampleweathercr
+          image: registry.digitalocean.com/digital-cr/weatherfinalimage:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80

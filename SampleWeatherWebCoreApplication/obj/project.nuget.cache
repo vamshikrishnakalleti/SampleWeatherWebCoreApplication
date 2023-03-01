@@ -1,20 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Ywcc+9Dn3zZhpXls+5OTPvCoybDM6rVepZQ30Sr1Aq/eJS5il68+atxV9x7HbNftgNXkpLmu6dbsxr7MsDkvWA==",
+  "dgSpecHash": "r1z82VXmPQVy9oM5m+GfLYDIXUAoWqLKwwjjowmOFQtqr2kR63bMeh6LrMBlfsveu9JAq1YTtdr/8bnn7+zicg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PLAPA-24\\Desktop\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
+  "projectFilePath": "C:\\Users\\PLAPA-24\\Downloads\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication\\SampleWeatherWebCoreApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\PLAPA-24\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\PLAPA-24\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\PLAPA-24\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\PLAPA-24\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+    "C:\\Users\\PLAPA-24\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }
